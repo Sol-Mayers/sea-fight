@@ -1,0 +1,61 @@
+.battleField_enemy {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(10, 9%);
+    grid-template-rows: repeat(5, 19%);
+    gap: 1%;
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.battleField_cell {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #34bdf7;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 0;
+    position: relative;
+}
+.battleField_cell:hover {
+    box-shadow: 0px 0px 2px 1px #858585;
+}
+.enemyCell {
+    background-color: #ffe045;
+}
+.enemyCell_ship {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.disableCell {
+    background-color: #34bdf7;
+    filter: brightness(0.8);
+    pointer-events: none;
+}
+
+.enemyShip_image {
+    opacity: 0;
+    position: relative;
+    width: inherit;
+    height: inherit;
+    background-color: #34bdf7;
+}
+.destroyShip {
+    opacity: 1;
+    background-image: url(../../../public/images/destroy-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.disableBattleField_enemy {
+    pointer-events: none;
+}

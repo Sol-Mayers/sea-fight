@@ -1,0 +1,99 @@
+.battleField {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 5px solid #34bdf7;
+    width: 500px;
+    height: 500px;
+    margin: 10px 0;
+    position: relative;
+}
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.shipIsDestroyed {
+    background-color: black;
+}
+.destroyedText {
+    visibility: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0%, 0%, 0%, 0.8);
+    padding: 30px;
+    opacity: 0;
+    transition-duration: 0.5s;
+    width: inherit;
+    height: inherit;
+    color: #29ff30;
+    font-size: 20px;
+}
+.showDestroyedText {
+    visibility: visible;
+    opacity: 1;
+}
+.ourDestroyedText {
+    color: red;
+}
+.destroyedText_text {
+    color: #29ff30;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.destroyedText_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background-color: #34bdf7;
+    color: #000000;
+    font-size: 20px;
+}
+.destroyedText_button:hover {
+    background-color: #2d9ecf;
+}
+.myStep {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    -webkit-animation: blink1 2s linear infinite;
+    animation: blink1 2s linear infinite;
+}
+@keyframes blink1 {
+    0% {
+        color: #29ff30;
+    }
+    25% {
+        color: red;
+    }
+    50% {
+        color: #29ff30;
+    }
+    75% {
+        color: red;
+    }
+    100% {
+        color: #29ff30;
+    }
+}
+.myInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
