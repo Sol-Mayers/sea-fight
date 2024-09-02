@@ -9,6 +9,7 @@
     width: 100%;
     box-sizing: border-box;
 }
+
 .battleField_cell {
     display: flex;
     flex-direction: row;
