@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sea-fight.git/static/css/main.3b3f69e3.css",
+    "main.js": "/sea-fight.git/static/js/main.848c9cc5.js",
+    "index.html": "/sea-fight.git/index.html",
+    "static/media/destroy-icon.svg": "/sea-fight.git/static/media/destroy-icon.4533ae92680a4c3132d3.svg",
+    "main.3b3f69e3.css.map": "/sea-fight.git/static/css/main.3b3f69e3.css.map",
+    "main.848c9cc5.js.map": "/sea-fight.git/static/js/main.848c9cc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b3f69e3.css",
+    "static/js/main.848c9cc5.js"
+  ]
+}
