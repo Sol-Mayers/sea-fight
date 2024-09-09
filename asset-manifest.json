@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sea-fight/static/css/main.cb4a8075.css",
-    "main.js": "/sea-fight/static/js/main.848c9cc5.js",
-    "index.html": "/sea-fight/index.html",
-    "static/media/destroy-icon.svg": "/sea-fight/static/media/destroy-icon.4533ae92680a4c3132d3.svg",
-    "main.cb4a8075.css.map": "/sea-fight/static/css/main.cb4a8075.css.map",
-    "main.848c9cc5.js.map": "/sea-fight/static/js/main.848c9cc5.js.map"
+    "main.css": "/static/css/main.27a479dc.css",
+    "main.js": "/static/js/main.848c9cc5.js",
+    "index.html": "/index.html",
+    "static/media/destroy-icon.svg": "/static/media/destroy-icon.4533ae92680a4c3132d3.svg",
+    "main.27a479dc.css.map": "/static/css/main.27a479dc.css.map",
+    "main.848c9cc5.js.map": "/static/js/main.848c9cc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb4a8075.css",
+    "static/css/main.27a479dc.css",
     "static/js/main.848c9cc5.js"
   ]
 }
